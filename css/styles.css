@@ -1,0 +1,215 @@
+/* ATTRIBUTION */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*******************************************************************/
+/* Style guide missing
+
+## Colors
+
+### Primary
+
+- Pink: hsl(322, 100%, 66%)
+
+### Neutral
+
+- Very Pale Cyan: hsl(193, 100%, 96%)
+- Very Dark Cyan: hsl(192, 100%, 9%)
+- Grayish Blue: hsl(208, 11%, 55%)
+
+*/
+
+/* ELEMENTS GENERAL */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+button {
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  border-radius: 24px;
+  box-shadow: 0 0 10px 8px #f2f2f2;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding: 15px 80px;
+}
+
+button:hover {
+  background-color: #fff;
+  color: hsl(322, 100%, 66%);
+  transition-duration: 0.4s;
+}
+
+/********** SECTION: TITLE **********/
+
+#title {
+  background-image: url("../images/bg-hero-desktop.svg");
+  padding: 4% 5%;
+  margin: 0;
+}
+
+.header {
+  position: relative;
+}
+
+.header-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header-right button {
+  background-color: #fff;
+  color: #000;
+}
+
+.header-right button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.intro {
+  padding: 2% 0;
+  position: relative;
+}
+
+.intro-left {
+  padding: 8% 0;
+  width: 41%;
+}
+
+.intro-left h1 {
+  font-size: 38px;
+  width: 85%;
+}
+
+.intro-left button {
+  margin-top: 5%;
+}
+
+.intro-right img {
+  position: absolute;
+  right: 3%;
+  top: 12%;
+  width: 50%;
+}
+
+/********** SECTION: FEATURES **********/
+
+#features {
+  padding: 10% 6% 2%;
+}
+
+.feature-card {
+  border-radius: 18px;
+  box-shadow: 0 0 10px 2px #f2f2f2;
+  margin: 50px;
+  position: relative;
+  display: block;
+  height: 450px;
+}
+
+.feature-card img {
+  position: absolute;
+  width: 40%;
+  top: 10%;
+}
+
+.feature-text {
+  padding: 12% 0;
+  position: absolute;
+  width: 43%;
+}
+
+.feature-text p {
+  color: hsl(208, 11%, 55%);
+}
+
+.left {
+  left: 10%;
+}
+
+.right {
+  right: 2%;
+}
+
+/********** SECTION: CALL TO ACTION **********/
+
+#cta {
+  font-weight: 700;
+  text-align: center;
+}
+
+.cta-card {
+  background-color: #fff;
+  border-radius: 18px;
+  box-shadow: 0 0 5px 2px #f2f2f2;
+  margin: auto;
+  padding: 3%;
+  position: relative;
+  top: 65px;
+  width: 40%;
+  z-index: 1;
+}
+
+.cta-card button {
+  border-radius: 26px;
+  font-size: 16px;
+}
+
+/********** SECTION: CONTACT **********/
+
+#contact {
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+  padding: 15% 8% 12%;
+}
+
+#contact .logo {
+  padding-bottom: 2%;
+}
+
+.column {
+  float: left;
+}
+
+.contact-left {
+  width: 35%;
+}
+
+.contact-right {
+  width: 65%;
+  height: auto;
+}
+
+.copyright {
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+  display: block;
+  font-size: 12px;
+  padding: 2% 8% 8%;
+  text-align: right;
+}
+
+/* MOBILE VERSION */
+
+@media (max-width: 375px) {
+
+}
