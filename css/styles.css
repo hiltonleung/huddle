@@ -179,7 +179,7 @@ button:hover {
 #contact {
   background-color: hsl(192, 100%, 9%);
   color: #fff;
-  padding: 15% 8% 12%;
+  padding: 15% 8% 1%;
 }
 
 #contact .logo {
@@ -192,19 +192,37 @@ button:hover {
 
 .contact-left {
   width: 35%;
+  padding-right: 6rem;
+}
+
+.contact-left img {
+  float: left;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.location-icon {
+  padding-bottom: 50px;
 }
 
 .contact-right {
-  width: 65%;
-  height: auto;
+  width: 55%;
+}
+
+.inner-right {
+  width: 28%;
+  padding: 0 1rem;
+}
+
+.column i {
+  font-size: 24px;
+  padding-right: 20px;
 }
 
 .copyright {
-  background-color: hsl(192, 100%, 9%);
-  color: #fff;
-  display: block;
+  clear: left;
   font-size: 12px;
-  padding: 2% 8% 8%;
+  padding-top: 2%;
   text-align: right;
 }
 
